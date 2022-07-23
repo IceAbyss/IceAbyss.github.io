@@ -1,41 +1,22 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
 h1{
-    color: rgb(240, 231, 231);
+    color: rgb(0, 0, 0);
 }
 
 h2{
-    color: rgb(240, 231, 231);
+    color: rgb(0, 0, 0);
 }
 
 p{
-    color: rgb(240, 231, 231);
+    color: rgb(0, 0, 0);
     text-indent: 2em;
-}
-body{
-    background-color: rgb(17, 16, 16);
 }
 
 pre{
-    color: rgb(117, 119, 211);
+    color: rgb(63, 65, 184);
 }
-
-li{
-    color: rgb(240, 231, 231);
-}
-
-h3{
-    color: rgb(240, 231, 231);
-}
-
-a{
-    color: rgb(92, 100, 219);
-}
-
-del{
-    color: rgb(240, 231, 231);
-}
-
-
-
 
 
 
@@ -62,7 +43,7 @@ del{
   .nav-menu a {
     display: block;
     position: relative;
-    color: rgb(230, 215, 215);
+    color: rgba(0, 0, 0);
     font-size: 16px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -87,7 +68,7 @@ del{
   }
   
   .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-    color: rgb(230, 215, 215);
+    color: rgb(0, 0, 0);
     text-decoration: none;
   }
 
@@ -239,6 +220,7 @@ audio {
 
 
 
+
 #footer {
   height: 40px;
   line-height: 40px;
@@ -263,6 +245,11 @@ audio {
 
 
 
+
+
+
+
+
 /*to top*/
 .btn{
   transition: all .2s ease-out;
@@ -272,7 +259,7 @@ audio {
   bottom: 90px;
   width: 40px;
   height: 40px;
-  background-color: white;
+  background-color: rgb(97, 41, 41);
   border-radius: 50%;
   z-index: 999;
 }
